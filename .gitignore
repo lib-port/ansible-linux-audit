@@ -4,3 +4,4 @@ artifacts/
 *.retry
 __pycache__/
 .pytest_cache/
+/AGENTS.md
