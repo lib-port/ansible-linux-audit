@@ -242,8 +242,10 @@ Validate generated reports independently when report files are present:
 python tools/validate_report.py artifacts/*.json
 ```
 
-This repository intentionally has no CI/CD workflow configuration. Before a
-public release, follow the [release checklist](docs/release-checklist.md).
+This repository has no automated validation pipeline. Its GitHub Actions
+workflows only mirror `main` to GitLab and retain the latest completed run for
+each workflow. Before a public release, follow the
+[release checklist](docs/release-checklist.md).
 
 ## License
 
